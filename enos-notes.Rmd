@@ -1,0 +1,23 @@
+---
+title: "notes"
+author: "Grace Rotondo"
+date: "10/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(fs)
+library(tidyverse)
+```
+
+causal effect of treatment on immigration attitudes
+```{r}
+download.file("https://docs.google.com/spreadsheets/d/e/2PACX-1vSaerGnn1tDQfgiyJRl7jnn1Au7Ev6Qt7BwMpl53ZgzAyMnANQfog9y4es4ZExlX5tjEgl0mPIyTGcP/pub?gid=480043959&single=true&output=csv", destfile = "trains.csv")
+```
+
+```{r}
+
+```
+
