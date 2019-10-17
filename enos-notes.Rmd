@@ -18,6 +18,24 @@ download.file("https://docs.google.com/spreadsheets/d/e/2PACX-1vSaerGnn1tDQfgiyJ
 ```
 
 ```{r}
+trains %>% 
+  group_by(treatment) %>% 
+  summarise(attitude = mean(attitude))
+
+```
+
+```{r}
+treatment <- c(1,0,1,0)
+attitude <- c(15,3,3,11)
+
+#causal effect: (treatemnt attitudes/2) (average) - (no treatment attitudes/2) 
+
+Y(0)  Y(1)
+?     13
+3     ?
+3     ?
+?     3
+11    ?
 
 ```
 
