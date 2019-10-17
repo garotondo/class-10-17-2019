@@ -30,6 +30,8 @@ attitude <- c(15,3,3,11)
 
 #causal effect: (treatemnt attitudes/2) (average) - (no treatment attitudes/2) 
 
+#negative causal effect - not enough samples
+
 Y(0)  Y(1)
 ?     13
 3     ?
